@@ -108,13 +108,12 @@
       <div class="card">
         <div class="card-image">
           <img src="../web/img/public/slider/C3.JPG">
-           <span class="card-title">
+          <span class="card-title">
           This is a Title
-        </span>
+          </span>
         </div>
       </div>
      </div>
-
      <div class="carousel-item">
       <div class="card">
         <div class="card-image">
@@ -125,7 +124,6 @@
         </div>
       </div>
      </div>
-    
     <div class="carousel-item">
       <div class="card">
         <div class="card-image">
@@ -136,5 +134,5 @@
         </div>
       </div>
     </div>
-
   </div>
+  <h2 class = "center" id ="titulo">Lugares de entrega</h2>
