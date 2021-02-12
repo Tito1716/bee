@@ -15,17 +15,30 @@ main {
     /*Estilo del nav bar*/
     background-image: url('../img/public/navp.jpg');
     background-position: center;
-    
 }
 
+@media only screen and(max-width : 900px){
+  .nav-wrapper{
+    /*Estilo del nav bar*/
+    background-image: url('../img/public/navp.jpg')s;
+    background-position: center;
+    size: 10vw;
+  } 
+  iframe{
+    size:20vm;
+  }
+}
 #titulo{
   /*Estilo de los textos titulo*/
   font-family: 'Jomhuria', cursive;
-  font-size: 125px;
+  font-size: 10vw;
+
 }
 #textotitulo{
   /*Texto del texto de explicacion*/
   font-family: 'Roboto Mono', monospace;
+  font-size: 3vw;
+  text-align: justify;
 }
 .carousel{
   /*Posicion del carrusel*/
