@@ -1,4 +1,5 @@
 body {
+  /*Estilo del cuerpo de la paigna*/
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -6,35 +7,34 @@ body {
 }
 
 main {
+  /*Estilo del cuerpo de la paigna*/
   flex: 1 0 auto;
 }
-  .nav-wrapper{
+
+.nav-wrapper{
+    /*Estilo del nav bar*/
     background-image: url('../img/public/navp.jpg');
     background-position: center;
     
 }
-.card-image.img
-{
-  height:150px !important;
-}
-
-.material-icons.md1::before{
-  content:"search"; 
-}
-
-.material-icons.md1:hover::before{
-  content:"navigate_next"; 
-}
 
 #titulo{
+  /*Estilo de los textos titulo*/
   font-family: 'Jomhuria', cursive;
   font-size: 125px;
 }
 #textotitulo{
+  /*Texto del texto de explicacion*/
   font-family: 'Roboto Mono', monospace;
 }
 .carousel{
+  /*Posicion del carrusel*/
  position: relative; 
  top: -100px;
+}
+
+#ImagenRes{
+  /*Responisve images*/
+  height: 225px;
 }
  
