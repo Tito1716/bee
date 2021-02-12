@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #EDDCD2;
+}
+
+main {
+  flex: 1 0 auto;
+}
+  .nav-wrapper{
+    background-image: url('../img/public/navp.jpg');
+    background-position: center;
+    
+}
+.card-image.img
+{
+  height:150px !important;
+}
+
+.material-icons.md1::before{
+  content:"search"; 
+}
+
+.material-icons.md1:hover::before{
+  content:"navigate_next"; 
+}
+
+#titulo{
+  font-family: 'Jomhuria', cursive;
+  font-size: 125px;
+}
+#textotitulo{
+  font-family: 'Roboto Mono', monospace;
+}
+.carousel{
+ position: relative; 
+ top: -100px;
+}
+ 
