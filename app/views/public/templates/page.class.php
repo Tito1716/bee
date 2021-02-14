@@ -25,7 +25,7 @@ class Page extends Component{
             </nav>
         </div>    
         </header> 
-    <main>
+    <main onselectstart='return false'>
 ");   
     }             
 

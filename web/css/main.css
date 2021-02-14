@@ -13,6 +13,7 @@ main {
 
 .nav-wrapper{
     /*Estilo del nav bar*/
+    position: relative;
     background-image: url('../img/public/navp.jpg');
     background-position: center;
 }
@@ -34,10 +35,13 @@ main {
   font-size: 10vw;
 
 }
+.clientes{
+  background-color: #F0EFEB;
+}
 #textotitulo{
   /*Texto del texto de explicacion*/
   font-family: 'Roboto Mono', monospace;
-  font-size: 3vw;
+  font-size: 1.5vw;
   text-align: justify;
 }
 .carousel{
@@ -50,4 +54,6 @@ main {
   /*Responisve images*/
   height: 225px;
 }
- 
+.card{
+  background-color: #EDDCD2;
+}
