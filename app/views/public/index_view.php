@@ -1,3 +1,4 @@
+
 <div class="slider">
     <ul class="slides">
       <li>
@@ -16,28 +17,24 @@
     </ul>
   </div>
 <h2  class= "flow-text center" id="titulo">Nuestros diseños</h2>
+<div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
 <div class="carousel">
-  
+  <div class="carousel-item">  
+      <img id="myImg"  src="web/img/public/nuestro/IMG-20210213-WA0016.jpg" alt="Snow">
+        <span  id="textotitulo" class="card-title" style ="height:200px;" >
+           La bella y la bestia
+        </span>
+    </div>
+            
   <div class="carousel-item">
-      <div class="card">
-        <div class="card-image">
-            <img class="materialboxed" style ="max-width:100%" src="web/img/public/nuestro/IMG-20210213-WA0016.jpg">
-            <span  id="textotitulo" class="card-title" style ="height: 200px;" >
-            La bella y la bestia
-            </span>
-        </div>
-      </div>
-  </div>
-
-  <div class="carousel-item">
-      <div class="card">
-        <div class="card-image">
-            <img class="materialboxed" src="web/img/public/nuestro/IMG-20210213-WA0021.JPG">
-            <span id="textotitulo" style ="height: 200px;" class="card-title">
-              La bella
-            </span>
-        </div>
-      </div>
+  <img id="myImg"  src="web/img/public/nuestro/IMG-20210213-WA0021.JPG" alt="Snow">
+        <span  id="textotitulo" class="card-title" style ="height:200px;" >
+           La bella y la bestia
+        </span>
   </div>
   
     <div class="carousel-item">
@@ -85,7 +82,6 @@
     </div>
 
   </div>
-</section>
 <section class="clientes">
   <h2  class= "center" id="titulo">Diseños de nuestros clientes</h2>
   <div class="carousel" >
@@ -171,5 +167,5 @@
         </div>
       </div>
     </div>
-
+    
     

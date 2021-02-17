@@ -18,7 +18,7 @@ class Page extends Component{
             </meta>
         </head>
         <header>
-        <div class='navbar-fixed'>
+        <div class='navbar'>
             <nav>
             <div class='nav-wrapper'>
             </div>
