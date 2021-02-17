@@ -17,6 +17,12 @@ main {
     background-image: url('../img/public/navp.jpg');
     background-position: center;
 }
+#textotitulo{
+  /*Texto del texto de explicacion*/
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5vw;
+  text-align: justify;
+}
 
 @media only screen and(max-width : 900px){
   .nav-wrapper{
@@ -28,6 +34,11 @@ main {
   iframe{
     size:20vm;
   }
+  #textotitulo{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    text-align: justify;
+  }
 }
 #titulo{
   /*Estilo de los textos titulo*/
@@ -38,12 +49,7 @@ main {
 .clientes{
   background-color: #F0EFEB;
 }
-#textotitulo{
-  /*Texto del texto de explicacion*/
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.5vw;
-  text-align: justify;
-}
+
 .carousel{
   /*Posicion del carrusel*/
  position: relative; 
@@ -54,6 +60,11 @@ main {
   /*Responisve images*/
   height: 225px;
 }
-.card{
-  background-color: #EDDCD2;
+.indicator-item {
+  color: #EDDCD2;
+}
+.expandimg:active{
+  z-index: 9999;
+  -webkit-transform: scale(3);
+  -moz-transform: scale(3);
 }
