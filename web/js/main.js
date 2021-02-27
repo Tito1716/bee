@@ -13,7 +13,6 @@ $(document).ready(function(){
         numVisible: 8
   });
   $('.slider').slider();
-<<<<<<< HEAD
   $('.venobox').venobox();
 });
 lightbox.option({
@@ -21,11 +20,10 @@ lightbox.option({
   'wrapAround': true,
   'disableScrolling' : true,
   'fitImagesInViewport': true
-})
-=======
-  $('.venobox').venobox({
-    framewidth : '400px',
-    frameheight: '500px'
-  }); 
 });
->>>>>>> 1207010fd94b357e0a87bfd1023fba1dd414dedb
+var glideMulti1 = new Glide('.multi1', {
+  type: 'carousel',
+  autoplay: 3500,
+  perView: 3
+});
+glideMulti1.mount();

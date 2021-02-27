@@ -58,8 +58,14 @@ main {
 #ImagenRes{
   /*Responisve images*/
   height: 225px;
-<<<<<<< HEAD
 }
-=======
+.wrap {
+  max-width: 900px;
+  margin: 0 auto;
 }
->>>>>>> 1207010fd94b357e0a87bfd1023fba1dd414dedb
+.glide__slide {
+  border: 1px solid #EDDCD2;
+  line-height: 100px;
+  margin: 0;
+  text-align: center;
+}
