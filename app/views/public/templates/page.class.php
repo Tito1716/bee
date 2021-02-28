@@ -13,7 +13,6 @@ class Page extends Component{
                 <link type='text/css' rel='stylesheet' href='web/css/main.css'/>
                 <link rel='stylesheet' href='node_modules/@glidejs/glide/dist/css/glide.core.min.css'>
                 <link rel='stylesheet' href='node_modules/@glidejs/glide/dist/css/glide.theme.min.css'>
-                <link href='web/css/lightbox.css' rel='stylesheet' />
                 <link rel='stylesheet' href='web/css/venobox.css' type='text/css' media='screen'/>
                 <link rel='preconnect' href='https://fonts.gstatic.com'>
                 <link href='https://fonts.googleapis.com/css2?family=Jomhuria&display=swap' rel='stylesheet'>
@@ -22,12 +21,7 @@ class Page extends Component{
             </meta>
         </head>
         <header>
-        <div class='navbar'>
-            <nav>
-            <div class='nav-wrapper'>
-            </div>
-            </nav>
-        </div>    
+        
         </header> 
     <main onselectstart='return false'>
 ");   
@@ -48,7 +42,6 @@ class Page extends Component{
             <script type='text/javascript' src='web/js/jquery-3.3.1.min.js'></script>
             <script type='text/javascript' src='web/js/venobox.min.js'></script>
             <script src='node_modules/@glidejs/glide/dist/glide.min.js'></script>
-            <script src='web/js/lightbox.js'></script>
             <script type='text/javascript' src='web/js/materialize.min.js'></script>
             <script type='text/javascript' src='web/js/main.js'></script>
          </body>

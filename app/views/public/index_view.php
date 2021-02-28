@@ -2,13 +2,13 @@
 <div class="slider">
     <ul class="slides">
       <li>
-        <img src="web/img/public/nuestro/IMG-20210213-WA0017.jpg"> <!-- random image -->
+        <img id="blur1" src="web/img/public/nuestro/IMG-20210213-WA0017.jpg"> <!-- random image -->
         <div class="caption center-align">
-          <h3 id="titulo">Bienvenido a BeeFluffy</h3>
+          <h3 id="titulo">Bienvenido a bordados BeeFluffy</h3>
         </div>
       </li>
       <li>
-        <img  src="web/img/public/nuestro/IMG-20210213-WA0015.jpg" class="responsive-img"> <!-- random image -->
+        <img id="blur1"  src="web/img/public/nuestro/IMG-20210213-WA0015.jpg" class="responsive-img"> <!-- random image -->
         <div class="caption left-align">
           <h3 id="titulo">Hacemos los diseños que tu gustes</h3>
         </div>
@@ -17,148 +17,101 @@
   </div>
  
 <h2  class= "flow-text center" id="titulo">Nuestros diseños</h2>
-
-<div class="carousel">
-
-    <div class="carousel-item">
-      <div class="card">
-        <div class="card-image">
-        <a class="example-image-link" href="web/img/public/nuestro/IMG-20210213-WA0016.jpg" data-lightbox="example-1"><img class="example-image" src="web/img/public/nuestro/IMG-20210213-WA0016.jpg" alt="image-1" /></a>
-            <span id="textotitulo"  class="card-title">
-              Bella y la bestia
-            </span>
-          </div>
-        </div>
-    </div>
-
-    <div class="carousel-item">
-    <div class="card">
-        <div class="card-image">
+  <div class="glide multi1">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li class="glide__slide">
+          <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0016.jpg" ><img class="medidas-telefono" src="web/img/public/nuestro/IMG-20210213-WA0016.jpg"  alt="image-1" /></a>
+          <span class="centrado" id="textotitulo">
+            Bella y la bestia
+          </span>
+        </li>
+        <li class="glide__slide">
           <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0021.jpg"><img src="web/img/public/nuestro/IMG-20210213-WA0021.jpg" width="200" height="300" alt="image alt"/></a>
-          <span id="textotitulo"  class="card-title">
-            Nuestros cactus
+          <span class="centrado" id="textotitulo">
+            Nuestros cactus  
           </span>
-        </div>
-      </div>
-    </div>
-
-
-      <div class="carousel-item">
-        <div class="card">
-          <div class="card-image">
-          <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0026.jpg"><img src="web/img/public/nuestro/IMG-20210213-WA0026.jpg" width="200" height="300" alt="image alt"/></a>
-              <span id="textotitulo"  class="card-title">
-                Orion
-              </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card">
-          <div class="card-image">
-            <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0019.jpg"><img src="web/img/public/nuestro/IMG-20210213-WA0019.jpg"width="200" height="300" alt="image alt"/></a>
-            <span id="textotitulo" class="card-title">
+        </li>
+        <li class="glide__slide">
+        <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0026.jpg"><img src="web/img/public/nuestro/IMG-20210213-WA0026.jpg" width="200" height="300" alt="image alt"/></a>
+          <span class="centrado" id="textotitulo">
+            Orion  
+          </span>
+        </li>
+        <li class="glide__slide">
+          <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0019.jpg"><img src="web/img/public/nuestro/IMG-20210213-WA0019.jpg"width="200" height="300" alt="image alt"/></a>
+          <span class="centrado" id="textotitulo">
                 El espacio
-              </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card">
-          <div class="card-image">
-          <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0023.jpg"><img src="web/img/public/nuestro/IMG-20210213-WA0023.jpg" width="200" height="300" alt="image alt"/></a>
-              <span id="textotitulo" class="card-title">
-                Polar
-              </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card">
-          <div class="card-image">
-          <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0014.jpg"><img  src="web/img/public/nuestro/IMG-20210213-WA0014.jpg" width="200" height="300" alt="image alt"/></a>
-                <span id="textotitulo"  class="card-title">
-                  Cactus
-                </span>
-          </div>
-        </div>
-      </div>
-
-  </div>
-<section class="clientes">
-  <h2  class= "center" id="titulo">Diseños de nuestros clientes</h2>
-  <div class="carousel" >
-  <div class="carousel-item">
-      <div class="card">
-        <div class="card-image">
-        <a class="venobox" href="web/img/public/clientes/IMG-20210211-WA0036.jpg"><img src="web/img/public/clientes/IMG-20210211-WA0036.jpg"width="200" height="300" alt="image alt"/></a>
-              <span id="textotitulo"  class="card-title">
-                Logo de batman
-              </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="card">
-        <div class="card-image">
-        <a class="venobox" href="web/img/public/clientes/IMG-20210211-WA0034.jpg"><img src="web/img/public/clientes/IMG-20210211-WA0034.jpg" width="200" height="300" alt="image alt"/></a>
-              <span id="textotitulo"  class="card-title">
-                Batman y Joker
-              </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="card">
-        <div class="card-image">
-        <a class="venobox" href="web/img/public/clientes/IMG-20210211-WA0030.jpg"><img src="web/img/public/clientes/IMG-20210211-WA0030.jpg"width="200" height="300" alt="image alt"/></a>
-              <span id="textotitulo"  class="card-title">
-                Parrot
-              </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="card">
-        <div class="card-image">
-        <a class="venobox" href="web/img/public/clientes/IMG-20210211-WA0039.jpg"><img src="web/img/public/clientes/IMG-20210211-WA0039.jpg"width="200" height="300" alt="image alt"/></a>
-              <span id="textotitulo"  class="card-title">
-                El viaje de una mariposa
-              </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="card">
-        <div class="card-image">
-        <a class="venobox" href="web/img/public/clientes/IMG-20210211-WA0045.jpg"> <img  src="web/img/public/clientes/IMG-20210211-WA0045.jpg"width="200" height="300" alt="image alt"/></a>
-              <span id="textotitulo"  class="card-title">
-                Dino
-              </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="card">
-        <div class="card-image">
-        <a class="venobox" href="web/img/public/slider/mafalda.jpg"><img  src="web/img/public/slider/mafalda.jpg"width="200" height="300" alt="image alt"/></a>
-          <span id ="textotitulo"class="card-title">
-          Mafalda
           </span>
-        </div>
-      </div>
+        </li>
+        <li class="glide__slide">
+          <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0023.jpg"><img src="web/img/public/nuestro/IMG-20210213-WA0023.jpg" width="225" height="300" alt="image alt"/></a>
+          <span class="centrado" id="textotitulo">
+            Polar
+          </span>
+        </li>
+        <li class="glide__slide">
+          <a class="venobox" href="web/img/public/nuestro/IMG-20210213-WA0014.jpg"><img  src="web/img/public/nuestro/IMG-20210213-WA0014.jpg" width="225" height="300" alt="image alt"/></a>
+          <span class="centrado" id="textotitulo">
+            Cactus
+          </span>    
+        </li>
+      </ul>
     </div>
-
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+    </div>
   </div>
-</section>
+  <section class="clientes">
+  <h2  class= "flow-text center" id="titulo">Diseños de nuestros clientes</h2>
+  <div class="glide multi2">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li class="glide__slide">
+            <a class="venobox"  href="web/img/public/clientes/IMG-20210211-WA0036.jpg"><img src="web/img/public/clientes/IMG-20210211-WA0036.jpg"width="200" height="300" alt="image alt"/></a>
+            <span class="centrado" id="textotitulo">
+              Batman
+            </span>
+        </li>
+        <li class="glide__slide">
+          <a class="venobox"href="web/img/public/clientes/IMG-20210211-WA0034.jpg"><img src="web/img/public/clientes/IMG-20210211-WA0034.jpg" width="200" height="300" alt="image alt"/></a>
+          <span class="centrado" id="textotitulo">
+            Batman y Joker
+          </span>
+        </li>
+        <li class="glide__slide">
+        <a class="venobox" href="web/img/public/clientes/IMG-20210211-WA0030.jpg"><img src="web/img/public/clientes/IMG-20210211-WA0030.jpg"width="200" height="300" alt="image alt"/></a>
+          <span class="centrado" id="textotitulo">
+                Perico
+          </span>
+        </li>
+        <li class="glide__slide">
+          <a class="venobox" href="web/img/public/clientes/IMG-20210211-WA0039.jpg"><img src="web/img/public/clientes/IMG-20210211-WA0039.jpg"width="200" height="300" alt="image alt"/></a>
+          <span class="centrado" id="textotitulo">
+            Mariposas
+          </span>
+        </li>
+        <li class="glide__slide">
+          <a class="venobox" href="web/img/public/clientes/IMG-20210211-WA0045.jpg"> <img  src="web/img/public/clientes/IMG-20210211-WA0045.jpg"width="200" height="300" alt="image alt"/></a>
+          <span class="centrado" id="textotitulo">
+            Dino
+          </span>
+        </li>
+        <li class="glide__slide">
+          <a class="venobox" href="web/img/public/slider/mafalda.jpg"><img  src="web/img/public/slider/mafalda.jpg"width="200" height="300" alt="image alt"/></a>>
+          <span class="centrado" id="textotitulo">
+            Mafalda
+          </span>    
+        </li>
+      </ul>
+    </div>
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+    </div>
+  </div>
+  </section>
   <h2 class = "center" id ="titulo">Lugares de entrega</h2>
     <div class="container">
       <div class="row">
@@ -176,23 +129,3 @@
         </div>
       </div>
     </div>
-
-    <div class="glide multi1">
-    <div class="glide__track" data-glide-el="track">
-      <ul class="glide__slides">
-        <li class="glide__slide">
-        <div class="card">
-        <div class="card-image">
-        <a class="venobox" href="web/img/public/clientes/IMG-20210211-WA0036.jpg"><img src="web/img/public/clientes/IMG-20210211-WA0036.jpg"width="200" height="300" alt="image alt"/></a>
-              <span id="textotitulo"  class="card-title">
-                Logo de batman
-              </span>
-        </div>
-      </div>
-        </li>
-        <li class="glide__slide">2</li>
-        <li class="glide__slide">3</li>
-        <li class="glide__slide">4</li>
-      </ul>
-    </div>
-  </div>
